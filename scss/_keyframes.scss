@@ -1,0 +1,64 @@
+
+@-webkit-keyframes progress-bar-stripes{
+    0%{
+        background-position-x:1rem
+    }
+}
+@keyframes progress-bar-stripes{
+    0%{
+        background-position-x:1rem
+    }
+}
+
+@-webkit-keyframes spinner-border{
+    to{
+        transform:rotate(360deg)
+    }
+}
+@keyframes spinner-border{
+    to{
+        transform:rotate(360deg)
+    }
+}
+@-webkit-keyframes spinner-grow{
+    0%{
+        transform:scale(0)
+    }
+    50%{
+        opacity:1;
+        transform:none
+    }
+}
+@keyframes spinner-grow{
+    0%{
+        transform:scale(0)
+    }
+    50%{
+        opacity:1;
+        transform:none
+    }
+}
+
+@-webkit-keyframes placeholder-glow{
+    50%{
+        opacity:.2
+    }
+}
+@keyframes placeholder-glow{
+    50%{
+        opacity:.2
+    }
+}
+@-webkit-keyframes placeholder-wave{
+    100%{
+        -webkit-mask-position:-200% 0;
+        mask-position:-200% 0
+    }
+}
+@keyframes placeholder-wave{
+    100%{
+        -webkit-mask-position:-200% 0;
+        mask-position:-200% 0
+    }
+}
+
