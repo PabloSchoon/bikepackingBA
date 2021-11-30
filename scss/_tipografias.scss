@@ -1,0 +1,206 @@
+@font-face{
+    font-family:Oswald;
+    font-style:normal;
+    font-weight:200;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUE.ttf) format('truetype')
+}
+@font-face{
+    font-family:Oswald;
+    font-style:normal;
+    font-weight:300;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUE.ttf) format('truetype')
+}
+@font-face{
+    font-family:Oswald;
+    font-style:normal;
+    font-weight:400;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype')
+}
+@font-face{
+    font-family:Oswald;
+    font-style:normal;
+    font-weight:500;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgUE.ttf) format('truetype')
+}
+@font-face{
+    font-family:Oswald;
+    font-style:normal;
+    font-weight:600;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogUE.ttf) format('truetype')
+}
+@font-face{
+    font-family:Oswald;
+    font-style:normal;
+    font-weight:700;
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUE.ttf) format('truetype')
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    margin-top:0;
+    margin-bottom:.5rem;
+    font-family:Oswald,sans-serif;
+    font-weight:700;
+    line-height:1.2
+}
+.h1,h1{
+    font-size:calc(1.375rem + 1.5vw)
+}
+
+.h2,h2{
+    font-size:calc(1.325rem + .9vw)
+}
+
+.h3,h3{
+    font-size:calc(1.3rem + .6vw)
+}
+
+.h4,h4{
+    font-size:calc(1.275rem + .3vw);
+    color: #003a1d;
+}
+.fecha{
+    font-size:1rem;
+    color:#000;
+    font-style:italic
+}
+
+.h5,h5{
+    font-size:1.25rem
+}
+.h6,h6{
+    font-size:1rem
+}
+
+p{
+    margin-top:0;
+    margin-bottom:1rem
+}
+
+.display-1{
+    font-size:calc(1.625rem + 4.5vw);
+    font-weight:300;
+    line-height:1.2
+}
+
+.display-2{
+    font-size:calc(1.575rem + 3.9vw);
+    font-weight:300;
+    line-height:1.2
+}
+
+.display-3{
+    font-size:calc(1.525rem + 3.3vw);
+    font-weight:300;
+    line-height:1.2
+}
+
+.display-4{
+    font-size:calc(1.475rem + 2.7vw);
+    font-weight:300;
+    line-height:1.2
+}
+
+.display-5{
+    font-size:calc(1.425rem + 2.1vw);
+    font-weight:300;
+    line-height:1.2
+}
+
+.display-6{
+    font-size:calc(1.375rem + 1.5vw);
+    font-weight:300;
+    line-height:1.2
+}
+
+.page-section .section-heading.h2,.page-section h2.section-heading{
+    font-size:2.5rem;
+    margin-top:0;
+    margin-bottom:1rem;
+    color:#003a1d;
+}
+.section-subheading2{
+    font-size:1.2rem;
+    font-weight:400;
+    font-style:italic;
+    font-family:Oswald,sans-serif;
+    margin-bottom:4rem;
+    color:#fff
+}
+.sponsors{
+    font-size:1.4rem;
+    font-weight:400;
+    font-family:Oswald,sans-serif;
+    margin-bottom:2rem;
+    color:#adb5bd;
+    letter-spacing:.5px
+}
+.page-section .section-subheading.h3,.page-section h3.section-subheading{
+    font-size:1.2rem;
+    font-weight:400;
+    font-style:italic;
+    font-family:Oswald,sans-serif;
+    margin-bottom:4rem
+}
+
+header.masthead .masthead-subheading{
+    font-size:1.2rem;
+    font-style:italic;
+    line-height:0;
+    margin-bottom:25px;
+    font-family:Oswald,sans-serif;
+    font-weight:300
+}
+header.masthead .masthead-heading{
+    font-size:3.25rem;
+    font-weight:700;
+    line-height:3.25rem;
+    margin-bottom:2rem;
+    font-family:Oswald,sans-serif
+}
+
+.text-end{
+    text-align:right!important
+}
+.text-center{
+    text-align:center!important
+}
+.text-decoration-none{
+    text-decoration:none!important
+}
+.text-uppercase{
+    text-transform:uppercase!important
+}
+.text-success{
+    --bs-text-opacity:1;
+    color:rgba(var(--bs-success-rgb),var(--bs-text-opacity))!important
+}
+.text-danger{
+    --bs-text-opacity:1;
+    color:rgba(var(--bs-danger-rgb),var(--bs-text-opacity))!important
+}
+.text-dark{
+    --bs-text-opacity:1;
+    color:rgba(var(--bs-dark-rgb),var(--bs-text-opacity))!important
+}
+.text-white{
+    --bs-text-opacity:1;
+    color:rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important
+}
+.text-body{
+    --bs-text-opacity:1;
+    color:rgba(var(--bs-body-color-rgb),var(--bs-text-opacity))!important
+}
+.text-muted{
+    --bs-text-opacity:1;
+    color:#6c757d!important
+}
+.text-white-50{
+    --bs-text-opacity:1;
+    color:rgba(255,255,255,.5)!important
+}
